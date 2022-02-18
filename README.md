@@ -2,3 +2,4 @@
 
 Order of Operations -
 1. Create_DomainProfile
+2. Deploy_DomainProfile
