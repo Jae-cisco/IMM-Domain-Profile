@@ -3,10 +3,10 @@ organization_name                       = "default"
 
 
 #Provide name to be prefixed for all the policies of Domain Profile
-name_prefix                             = "UCSX-Demo"
+name_prefix                             = "UCSX-Demo-"
 
 #Name of UCS Domain Profile
-name_of_ucs_domain_profile              = "UCSX-Demo"
+name_of_ucs_domain_profile              = "UCSX-Demo-"
 
 
 #Provide the FI details which is in IMM
