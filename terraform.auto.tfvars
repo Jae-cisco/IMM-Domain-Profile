@@ -3,10 +3,10 @@ organization_name                       = "default"
 
 
 #Provide name to be prefixed for all the policies of Domain Profile
-name_prefix                             = "UCSX-Demo-"
+name_prefix                             = "UCSX-Demo:"
 
 #Name of UCS Domain Profile
-name_of_ucs_domain_profile              = "UCSX-Demo-"
+name_of_ucs_domain_profile              = "UCSX-Demo:"
 
 
 #Provide the FI details which is in IMM
@@ -79,7 +79,7 @@ vlan_details_for_fabric_interconnects = {
 Native-VLAN     = 2
 mgmt-oob        = 11
 mgmt-inband     = 511
-iSCSI-A         = 3010
+iSCSI-A         = "3010-3019"
 iSCSI-B         = 3020
 nfs             = 3050
 }
