@@ -3,10 +3,10 @@ organization_name                       = "CIP"
 
 
 #Provide name to be prefixed for all the policies of Domain Profile
-name_prefix                             = "UCSX-Demo:"
+name_prefix                             = "GIT1"
 
 #Name of UCS Domain Profile
-name_of_ucs_domain_profile              = "UCSX-Demo:"
+name_of_ucs_domain_profile              = "GIT1"
 
 
 #Provide the FI details which is in IMM
