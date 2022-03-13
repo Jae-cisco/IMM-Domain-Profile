@@ -35,7 +35,6 @@ module "port_policy_on-fi-a" {
   correspnding_vsan_id                            = var.correspnding_vsan_id_on-fi-a
   slot_id_of_ports_for_fc_uplink                  = var.slot_id_of_ports_for_fc_uplink_on-fi-a
 
-  switch_profile_moid                             = intersight_fabric_switch_profile.fabric_switch_profile_fi-a.moid
 }
 
 
@@ -77,7 +76,6 @@ module "port_policy_on-fi-b" {
   correspnding_vsan_id                            = var.correspnding_vsan_id_on-fi-b
   slot_id_of_ports_for_fc_uplink                  = var.slot_id_of_ports_for_fc_uplink_on-fi-b
 
-  switch_profile_moid                             = intersight_fabric_switch_profile.fabric_switch_profile_fi-b.moid
 }
 
 
@@ -98,8 +96,6 @@ module "vlans_for_fabric_interconnects" {
   native_vlan                               = var.native_vlan
   vlan_details_for_fabric_interconnects     = var.vlan_details_for_fabric_interconnects
 
-  switch_profile_moid_of_fi-a               = intersight_fabric_switch_profile.fabric_switch_profile_fi-a.moid
-  switch_profile_moid_of_fi-b               = intersight_fabric_switch_profile.fabric_switch_profile_fi-b.moid
 }
 
 
@@ -115,7 +111,6 @@ module "vsan_for_fabric_interconnects-a" {
   fcoe_vlan_id                              = var.fcoe_vlan_id_on-fi-a
   correspnding_vsan_id                      = var.correspnding_vsan-fcoe_id_on-fi-a
 
-  switch_profile_moid                       = intersight_fabric_switch_profile.fabric_switch_profile_fi-a.moid
 }
 
 
@@ -131,7 +126,6 @@ module "vsan_for_fabric_interconnects-b" {
   fcoe_vlan_id                              = var.fcoe_vlan_id_on-fi-b
   correspnding_vsan_id                      = var.correspnding_vsan-fcoe_id_on-fi-b
 
-  switch_profile_moid                       = intersight_fabric_switch_profile.fabric_switch_profile_fi-b.moid
 }
 
 
@@ -146,9 +140,6 @@ module "ntp_policy" {
 
   list_of_ntp_server                        = var.list_of_ntp_server
   timezone                                  = var.timezone
-
-  switch_profile_moid_of_fi-a               = intersight_fabric_switch_profile.fabric_switch_profile_fi-a.moid
-  switch_profile_moid_of_fi-b               = intersight_fabric_switch_profile.fabric_switch_profile_fi-b.moid
 }
 
 
@@ -164,8 +155,6 @@ module "network_config_policy" {
   preferred_ipv4_dns_server                 = var.preferred_ipv4_dns_server
   alternate_ipv4_dns_server                 = var.alternate_ipv4_dns_server
 
-  switch_profile_moid_of_fi-a               = intersight_fabric_switch_profile.fabric_switch_profile_fi-a.moid
-  switch_profile_moid_of_fi-b               = intersight_fabric_switch_profile.fabric_switch_profile_fi-b.moid
 }
 
 
@@ -179,6 +168,4 @@ module "system_qos_policy" {
   description_of_system_qos_policy          = "System QoS Policy for FI's"
   mtu_for_best_effort_class_of_service      = var.mtu_for_best_effort_class_of_service
 
-  switch_profile_moid_of_fi-a               = intersight_fabric_switch_profile.fabric_switch_profile_fi-a.moid
-  switch_profile_moid_of_fi-b               = intersight_fabric_switch_profile.fabric_switch_profile_fi-b.moid
 }
