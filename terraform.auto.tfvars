@@ -1,5 +1,5 @@
 #Provide the name of Intersight Organization.
-organization_name                       = "default"
+organization_name                       = "CIP"
 
 
 #Provide name to be prefixed for all the policies of Domain Profile
