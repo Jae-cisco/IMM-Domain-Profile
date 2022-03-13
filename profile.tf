@@ -105,7 +105,7 @@ resource "intersight_fabric_switch_profile" "fabric_switch_profile_fi-b" {
   name        = "${var.name_of_ucs_domain_profile}-B"
   description = "fabric switch profile"
   type        = "instance"
-  #action      = "Deploy"
+  action      = "No-op"
 
 
   switch_cluster_profile = [{
