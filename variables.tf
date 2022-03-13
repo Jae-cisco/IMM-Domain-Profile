@@ -3,7 +3,7 @@ variable "organization_name" {
 }
 
 variable "name_prefix" {
-  default = "UCSX-Demo"
+  default = "GIT1"
 }
 
 variable "fi_model" {
@@ -20,7 +20,7 @@ variable "serial_number_of_fi-b" {
 
 
 variable "name_of_ucs_domain_profile" {
-  default = "ci-terraform"
+  default = "gitdp"
 }
 
 
