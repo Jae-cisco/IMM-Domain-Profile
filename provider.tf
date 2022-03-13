@@ -9,7 +9,7 @@ terraform {
 
 
 provider "intersight" {
-  apikey    = "61d542847564612d3345b882/61d545367564612d31edab46/621701bb7564612d31cb16d9"
-  secretkey = "./publickey.pem"
+  apikey    = var.apikey
+  secretkey = var.secretkey
   endpoint  = "https://intersight.com"
 }
