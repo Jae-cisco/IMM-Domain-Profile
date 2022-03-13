@@ -143,7 +143,7 @@ module "ntp_policy" {
 }
 
 
-
+/*
 #Update DNS settings
 module "network_config_policy" {
   source = "./modules/networkconfig_policy"
@@ -156,7 +156,7 @@ module "network_config_policy" {
   alternate_ipv4_dns_server                 = var.alternate_ipv4_dns_server
 
 }
-
+*/
 
 
 #Configure Quality of Service (QoS) for FIs
