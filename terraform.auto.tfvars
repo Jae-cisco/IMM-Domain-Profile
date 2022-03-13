@@ -11,10 +11,10 @@ name_of_ucs_domain_profile              = "UCSX-Demo:"
 
 #Provide the FI details which is in IMM
 #FI Model - UCS-FI-6454 / UCS-FI-64108
-fi_model                                = "UCS-FI-6454"
+fi_model                                = ""
 #Serial Numbers
-serial_number_of_fi-a                   = "FDO251614ZU"
-serial_number_of_fi-b                   = "FDO251614XJ"
+serial_number_of_fi-a                   = ""
+serial_number_of_fi-b                   = ""
 
 
 #Port Policy configuration for all the physical ports of the Fabric Interconnect - A
