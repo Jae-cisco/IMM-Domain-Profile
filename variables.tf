@@ -7,15 +7,15 @@ variable "name_prefix" {
 }
 
 variable "fi_model" {
-  default = "UCS-FI-6454"
+  default = ""
 }
 
 variable "serial_number_of_fi-a" {
-  default = "FDO251614ZU"
+  default = ""
 }
 
 variable "serial_number_of_fi-b" {
-  default = "FDO251614XJ"
+  default = ""
 }
 
 
@@ -211,6 +211,5 @@ variable apikey {
 }
 variable secretkey {
 }
-variable endpoint {
-}
+
   
