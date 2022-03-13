@@ -206,3 +206,11 @@ variable "alternate_ipv4_dns_server" {
 variable "mtu_for_best_effort_class_of_service" {
   default = 9216
 }
+
+variable apikey {
+}
+variable secretkey {
+}
+variable endpoint {
+}
+  
