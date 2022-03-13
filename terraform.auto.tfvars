@@ -11,10 +11,10 @@ name_of_ucs_domain_profile              = "GIT1"
 
 #Provide the FI details which is in IMM
 #FI Model - UCS-FI-6454 / UCS-FI-64108
-fi_model                                = ""
+fi_model                                = "UCS-FI-6454"
 #Serial Numbers
-serial_number_of_fi-a                   = ""
-serial_number_of_fi-b                   = ""
+serial_number_of_fi-a                   = "FDO252805LX"
+serial_number_of_fi-b                   = "FDO252805HV"
 
 
 #Port Policy configuration for all the physical ports of the Fabric Interconnect - A
