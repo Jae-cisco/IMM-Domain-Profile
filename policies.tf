@@ -98,7 +98,7 @@ module "vlans_for_fabric_interconnects" {
 
 }
 
-
+/*
 
 #Policy for VSAN to be deployed on the Fabric Interconnect - A
 module "vsan_for_fabric_interconnects-a" {
@@ -128,7 +128,7 @@ module "vsan_for_fabric_interconnects-b" {
 
 }
 
-
+*/
 
 #Policy to configure the NTP Servers
 module "ntp_policy" {
